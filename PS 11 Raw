@@ -139,7 +139,7 @@ except:
 
 
 # [PROBLEM 6] 
-# Write code to compute the top three likers and commenters on your posts overall.
+# Write code to compute the top three likers and commenters on your posts overall. In separate lists: one for likers and one for commenters. 
 # (the people who did the most comments and likes on all of your facebook posts)
 # Hint: making dictionaries and sorting may both be useful here!
 
