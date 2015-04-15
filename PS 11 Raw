@@ -62,6 +62,7 @@ class Post():
     # There are tests of these methods later on.
         
     def positive(self):
+#try using accumulaiton and a for loop to iterate through the message.
         return None
 #Try using accumulation into an empty list and a for loop to iterate thorugh the message.                   
     def negative(self):
