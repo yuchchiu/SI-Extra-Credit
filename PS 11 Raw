@@ -63,7 +63,7 @@ class Post():
         
     def positive(self):
         return None
-                   
+#I suggest that you use the accumulation pattern in combinaiton with a for loop to define the function.                   
     def negative(self):
         return None
 
@@ -111,6 +111,7 @@ test.testEqual(p.emo_score(), -1)
 # This is almost the same as the Facebook code example you saw in class.
 
 # uncomment the next three lines, filling in your access token
+# https://github.com/ilcheung/SI-106
 # access_token = ""
 # graph = facebook.GraphAPI(access_token)
 # feed = graph.get_object("me/feed", limit = 100)
