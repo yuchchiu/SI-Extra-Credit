@@ -155,6 +155,12 @@ except:
 # net positivity on x-axis and comment-counts and like-counts on the y-axis. 
 # Each row should represent one post and have: emo score, comment counts, and like counts.
 
+#Use a for loop and interpolation
+for x in post_insts:
+
+#Output a .csv file to make three columns (emo_score, comment_counts, and like_counts)
+#Then use excel to make scatterplots.
+#One scatterplot is of comment_counts, another is of like_counts.
 
 # You can see what the scatterplot might look
 # like in emo_scores.xlsx. (In the example case, there's not an obvious
