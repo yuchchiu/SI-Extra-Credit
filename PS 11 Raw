@@ -62,8 +62,9 @@ class Post():
     # There are tests of these methods later on.
         
     def positive(self):
+#try using accumulaiton and a for loop to iterate through the message.
         return None
-                   
+#Try using accumulation into an empty list and a for loop to iterate thorugh the message.                   
     def negative(self):
         return None
 
@@ -111,6 +112,7 @@ test.testEqual(p.emo_score(), -1)
 # This is almost the same as the Facebook code example you saw in class.
 
 # uncomment the next three lines, filling in your access token
+# https://developers.facebook.com/tools/explorer here is a link to the facebook access token
 # access_token = ""
 # graph = facebook.GraphAPI(access_token)
 # feed = graph.get_object("me/feed", limit = 100)
